@@ -25,6 +25,7 @@ import java.util.UUID;
 public class MainController {
     @Autowired
     private MessageRepo messageRepo;
+
     @Value("${upload.path}")
     private String uploadPath;
 
